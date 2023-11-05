@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/icon-list.svg">
+  <title>Newsletter sign-up form with success message</title>
+  <!-- css Sheet desktop css --> 
+  <link rel="stylesheet" href="./home.css">
+  <!-- css Sheet mobile css --> 
+  <link rel="stylesheet" href="./home_moblie.css">
+  <!-- google front  -->
+  <style>@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');</style>
+</head>
+<body>
+  
+  <!-- Sign-up form start -->
+  <main>
+    <div class="firstdiv">
+      <h1>Stay updated!</h1>
+        <p id="join">Join 60,000+ product managers receiving monthly updates on:</p>
+
+        <ul>
+          <li>
+            <img src="./assets/images/icon-list.svg" alt="listimages">
+              Product discovery and building what matters</li>
+          <li>
+            <img src="./assets/images/icon-list.svg" alt="listimages">
+              Measuring to ensure updates are a success</li>
+          <li>
+            <img src="./assets/images/icon-list.svg" alt="listimages">
+              And much more!</li>
+        </ul>
+
+        <h3 class="validemail"></h3>
+        
+        <div class="gmail">
+          <h2> Email address</h2>
+          <form name="mail2" action="#" value="ash@loremcompany.com">
+          <input type="email" name="email" id="email" placeholder="ash@gmail.com">
+        </form>
+      </div>
+      
+      <button id="btn" onclick="ValidateEmail(document.mail2.email)">Subscribe to monthly newsletter</button>
+    </div>
+    <div class="seconddiv">
+      <img src="./assets/images/illustration-sign-up-desktop.svg" alt="listimages">
+    </div>
+  </main>
+  <!-- javascript  -->
+  <script src="./script.js">
+  </script>
+</body>
+</html>

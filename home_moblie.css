@@ -1,0 +1,67 @@
+@media screen and (min-width: 375px ) and (max-width: 768px) {
+    body{
+        background-color: #fff;
+    }
+    main{
+        background-color: #fff;
+        border-radius: 10px;
+        width: 45vw;
+        height: 20vh;
+        position: absolute;
+        top: -35px;  right : 160px;
+        display: inline-grid;
+        grid-template-areas: 
+        "ss ss ss ss"
+        "fs fs fs fs";
+        grid-gap: 2px;
+    }
+    .firstdiv{
+        grid-area: fs;
+    }
+    .seconddiv{
+        grid-area: ss;
+    }
+    .firstdiv{
+        margin: 5vh 2vh 2vh 10vh;
+        position: absolute;
+        top: 27vh;
+        left: -100px;
+        width: 40vh;
+    }
+    h1{
+        font-size: 45px;
+        font-size: bold;
+    }
+    #join{
+        margin: 8px;
+        font-size: 30px;
+    }
+    ul,li{
+        margin: 10px;
+        list-style: none;
+        font-size: 18px;
+    }
+    .seconddiv img{
+        padding: -40px;
+        position: absolute;
+        top: -80px;
+        left: -80px;
+        height: 45vh;
+        width: 50vh;
+    }
+    form input{
+        padding-left: 20px;
+        font-size: 25px;
+        width: 78vw;
+        height: 5.5vh;
+    }
+    #btn{
+        width: 78vw;
+        height: 6.5vh;
+    }
+    h3{
+        position: absolute;
+        top: 94vh; 
+        left:62.5vw;
+    }
+}
